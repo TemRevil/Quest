@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Quest - L1</title>
+
+    <link rel="stylesheet" href="CSS/all.css">
+    <link rel="stylesheet" href="CSS/Main.css">
+</head>
+<body>
+    <section class="main-content flex center">
+        <div class="ops box flex col center">
+            <span class="w1 align">Relax</span>
+            <span class="w2 align">and <strong>Focus</strong></span>
+            <span class="w3 align">Stay Warm</span>
+            <span class="w4 title">Go</span>
+        </div>
+        <div class="quest ops flex center">
+            <span class="title" id="timer">Timer</span>
+            <div class="box flex col">
+                <div class="title"><p><i class="fa fa-q"></i>uest.<span id="q-num">1</span></p></div>
+                <div class="align"><p id="q-quest">Question?</p></div>
+                <div style="width: 100%;">
+                    <main class="flex center">
+                        <form class="text">
+                            <label>
+                                <input type="radio" name="Question" value="">
+                                <span class="truncate" id="A1">Answer.1</span>
+                            </label>
+                            <label>
+                                <input type="radio" name="Question" value="">
+                                <span class="truncate" id="A2">Answer.2</span>
+                            </label>
+                            <label>
+                                <input type="radio" name="Question" value="">
+                                <span class="truncate" id="A3">Answer.3</span>
+                            </label>
+                            <div class="selection"></div>
+                        </form>
+                    </main>
+                </div>
+                <span class="text alert"></span>
+                <button class="q-btn text"><i class="fa-solid fa-rocket"></i> Next</button>
+            </div>                                    
+            <div class="GPA ops flex center">
+                <div class="box flex col center">
+                    <p class="title">YOUR GPA</p>
+                    <span class="align" id="result">1.0</span>
+                    <span class="text" id="result-text"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="JavaScript/all.js"></script>
+    <script src="JavaScript/Main.js"></script>
+</body>
+</html>
